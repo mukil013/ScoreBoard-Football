@@ -3,13 +3,14 @@ let a = document.querySelector('#displayHome');
 let b = document.querySelector('#displayAway');
 
 //aprm goal nu oru variable create panni initialize pandrom
-let goal = 0;
+let goalhome = 0;
+let goalaway = 0;
 
 
 
 function AddGoadHome(){
-    goal += 1;
-    a.textContent = goal;
+    goalhome += 1;
+    a.textContent = goalhome;
     /*inga yepdi na namma andha dummy text ah a nu define pannirukoma
     appo andha mathanum na indha textContent use pannanum namma goal ah + 1 pandrom
     ah starting goal 0 la irunthu apdiye 1 increment aagum */
@@ -20,16 +21,17 @@ function AddGoadHome(){
 }
 
 function AddGoadAway(){
-    goal += 1;
-    b.textContent = goal;
+    goalaway += 1;
+    b.textContent = goalaway;
     console.log("Away Scored");
 }
 
 function reset(){
     /*ipo namma goal variable ku again 0 kudukurom reset panna idhu click aana 
     goal oda value 0 ku poirum*/
-    goal = 0;
+    goalhome = 0;
+    goalaway = 0;
     /*inga same mela panna maari tha*/
-    a.textContent = goal;
-    b.textContent = goal;    
+    a.textContent = goalhome;
+    b.textContent = goalaway;    
 }
