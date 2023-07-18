@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--link nu irukulla idhu namma css ah locate panna-->
     <link rel="stylesheet" href="./style/main.css">
     <title>ScoreBoard</title>
 </head>
@@ -17,22 +18,28 @@
         <!--idhu sub container home away idhula tha kaatum-->
         <div class="box">
             <div class="home">
+                <!--keela irukurathu summa dummy number namma idha javascript la maathuvom-->
                 <div id="displayHome">0</div>
                 <div class="add">
+                    <!--inga rukarathutha goal ah add pandra button home ku-->
                     <button class="goal" onclick="AddGoadHome()">HOME GOAL</button>
                 </div>
             </div>
             <div class="away">
+                <!--keela irukurathu summa dummy number namma idha javascript la maathuvom-->
                 <div id="displayAway">0</div>
                 <div class="add">
+                    <!--inga rukarathutha goal ah add pandra button away ku-->
                     <button class="goal" onclick="AddGoadAway()">AWAY GOAL</button>
                 </div>
             </div>
         </div>
+        <!--idhu total ah reset panna-->
         <div class="reset">
             <button class="reset" onclick="reset()">Reset</button>
         </div>
     </div>
 </body>
+<!--idhu namma javascrpt file ah locate panna-->
 <script src="./js/app.js"></script>
 </html>
