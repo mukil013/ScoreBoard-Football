@@ -44,6 +44,7 @@ home aprm away display pannuvom la adhu*/
     align-items: center;
     gap: 4rem;
 }
+/*idhu home thaniya away thaniya display pandraku*/
 .home , .away{
     height: 22rem;
     width: 22rem;
@@ -56,12 +57,14 @@ home aprm away display pannuvom la adhu*/
     justify-content: space-between;
     align-items: center;
 }
+/*idhu home aprm away oda numbers display panna*/
 #displayHome , #displayAway {
     font-size: 30vh;
     color: rgb(174, 185, 255);
     text-shadow: 0 0 2rem rgba(0, 0, 255, 0.662);
     font-family: monospace;
 }
+/*idhu goal button aprm reset button ah style panna*/
 .goal , .reset{
     border: none;
     width: 22rem;
@@ -73,10 +76,12 @@ home aprm away display pannuvom la adhu*/
     border-bottom-right-radius: 2rem;
     transition: 1s all ease;
 }
+/* indha :active nu iurkulla idhu namma button ah click pannum pothu oru effect varuthula adhuku*/
 .goal:active{
     transition: .1s all ease;
     color: #000;
 }
+/*idhu illina reset button um paaka goal button maaritha irukum*/
 .reset{
     background-color: rgba(154, 0, 0, 0.488);
     z-index: 100;
